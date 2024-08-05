@@ -1,13 +1,8 @@
 name: Reusable Workflow
 on:
-  workflow_call:
-    inputs:
-      param1:
-        description: 'A parameter for the workflow'
-        required: true
-        type: string
+  push
 jobs:
   job1:
     runs-on: ubuntu-latest
     steps:
-    - run: echo "Input parameter: ${{ inputs.param1 }}"
+    - run: echo "Input parameter: bleh"

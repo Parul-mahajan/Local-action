@@ -5,4 +5,4 @@ jobs:
   job1:
     runs-on: ubuntu-latest
     steps:
-    - run: echo "Input parameter: bleh"
+    - run: echo "Input parameter bleh"
